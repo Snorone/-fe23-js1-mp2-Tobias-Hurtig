@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/script.js" defer></script>
+    <title>Rock paper scissors</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+
+    <form>
+      <p>Please write your name</p>
+      <input type="text" id="name" placeholder="Your name" />
+      <button>Send</button>
+      <p>Rules: Get 3 points to win!</p>
+    </form>
+    <h2 id="h2name"></h2>
+    <div class="hiddenDiv">
+      <h2>Choose your weapon</h2>
+      <div class="div1">
+        <img
+          src="./assets/Rock.jpg"
+          id="rock"
+          class="yourImage"
+          alt="Rockformated hand"
+        />
+        <img
+          src="./assets/Paper.jpg"
+          id="paper"
+          class="yourImage"
+          alt="paperformated hand"
+        />
+        <img
+          src="./assets/Scissors.jpg"
+          id="scissors"
+          class="yourImage"
+          alt="scissorsformated hand"
+        />
+      </div>
+
+      <div class="div3">
+        <h2>Your score</h2>
+        <h2>CPU score</h2>
+      </div>
+      <div class="div3">
+        <h2 id="yourScore">0</h2>
+
+        <h2 id="CPUScore">0</h2>
+      </div>
+      <h2>Computers choice</h2>
+      <div class="div1">
+        <img src="./assets/Rock.jpg" id="CPURock" class="CPUImage" />
+        <img src="./assets/Paper.jpg" id="CPUPaper" class="CPUImage" />
+        <img src="./assets/Scissors.jpg" id="CPUScissors" class="CPUImage" />
+      </div>
+      <div id="textDiv">
+        <h2 id="yourChoice"></h2>
+      </div>
+    </div>
+    <div id="winningDiv">
+      <h2 id="winningText"></h2>
+    </div>
+    <div id="resetDiv">
+      <button id="resetButton">Start over</button>
+    </div>
+  </body>
+</html>
