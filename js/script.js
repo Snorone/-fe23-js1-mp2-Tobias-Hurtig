@@ -96,13 +96,13 @@ myDiv.addEventListener("click", (event) => {
 
   if (CPUCount === 3) {
     winningDiv.style.display = "block";
-    winningText.innerText = "Computer wins, you loose! Mohahahaha";
+    winningText.innerText = "Computer wins, you loose! Mohahaha";
     hiddenDiv.style.display = "none";
     resetBtn.style.display = "block";
     console.log(resetBtn);
   } else if (yourCount === 3) {
     winningDiv.style.display = "block";
-    winningText.innerText = "You win, congratulations!";
+    winningText.innerText = "You win, congrats!";
     hiddenDiv.style.display = "none";
     resetBtn.style.display = "block";
     console.log(resetBtn);
